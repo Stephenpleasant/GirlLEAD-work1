@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto;
+    background-color: #E5E5E5;
+    color: #000;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.container{
+    max-width: 900px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+ .head {
+    margin-top: 20px;
+ }
+
+ .head .container-fluid .navbar-brand{
+    color: #000;
+    margin-right: 170px;
+ }
+
+ .info{
+    background: url("Mask\ Group.png");
+    mask-repeat: no-repeat;
+ }
+ .info h1{
+    padding-top: 40px;
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    justify-content: center;
+ }
+
+ form .fill input{
+     width: 30%;
+     height: 40px;
+     margin: 4px;
+     background-color: #DFDFDF;
+     border: 0;
+ }
+
+ form .fill1 button{
+    width: 30%;
+    height: 37px;
+    margin: 4px;
+    border-radius: 20px;
+    font-weight: 400;
+    background-color: #F4C240;
+    border: #F4C240;
+}
+form .fill2 button{
+    width: 30%;
+    height: 37px;
+    margin: 4px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #2E6BC6;
+    border: #fff 1px solid;
+    margin: 9px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+form .fil{
+    border: #fff 1px solid;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 7px;
+}
+.info h6{
+    color: #fff;
+    font-size: 12px;
+    padding-bottom: 80px;
+    font-weight: 500;
+}
+
+.Newspaper {
+    padding-top: 0;
+    background: #fff;
+    bottom: 120px;
+    height: 150vh;
+}
+
+.Newspaper .container1 h3{
+      font-weight: bolder;
+      margin-right: 50px;
+      padding-top: 30px;
+}
+
+.Newspaper .container1 h6{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 15px;
+}
+
+.Newspaper .con{
+    margin-top: 60px;
+}
+.Newspaper .container-img{
+    position: relative;
+    float: left;
+    margin-left: 20px;
+}
+.container-text h3{
+    font-size: 25px;
+    justify-content: right;
+    font-weight: bold;
+    padding-right: 90px;
+    margin-left: 50%;
+    text-align: left;
+}
+
+.container-text .button1{
+    position: relative;
+    background: #107D90;
+    color: #fff;
+    margin-right: 300px;
+    border: none;
+    margin-top: 5px;
+    width: 40px;
+    height: 20px;
+    float: left;
+    margin-left: 150px;
+}
+
+.container-text h4{
+    font-size: 15px;
+    font-weight: 400;
+    justify-items: left;
+    margin-top: 40px;
+    text-align: left;
+    padding-right: 90px;
+    margin-left: 50%;
+}
+
+.container-text .button2{
+    position: relative;
+    background: #2E6BC6;
+    color: #fff;
+    margin: 4px;
+    float: left;
+    padding: 4px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 300px;
+    border: none;
+    height: 30px;
+    width: 20%;
+    align-items: left;
+    margin-bottom: 30px;
+    margin-left: 50%;
+}
+
+.Letter  {
+    margin-top: 60px;
+}
+
+.Letter .container2{
+    margin-top: 50px;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+
+.Letter .container2 h3{
+    position: relative;
+    float: left;
+    margin-right: 150px;
+    width: 35%;
+    justify-items: left;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.Letter .container2 .button1{
+    position: relative;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 200%;
+    margin-left: 20px;
+}
+
+.Letter .container2 h4{
+    font-size: 15px;
+    font-weight: 400;
+    justify-items: left;
+    margin-top: 40px;
+    text-align: left;
+    padding-right: 90px;
+    padding-top: 30px;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.Letter .container2 .button1{
+    position: relative;
+    background: #107D90;
+    color: #fff;
+    border: none;
+    margin-top: 5px;
+    width: 40px;
+    height: 20px;
+    
+}
+
+.Letter .container2 .button2{
+    position: relative;
+    background: #2E6BC6;
+    color: #fff;
+    margin: 4px;
+    float: left;
+    padding: 4px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 300px;
+    border: none;
+    height: 30px;
+    width: 20%;
+    align-items: left;
+    margin-bottom: 30px;
+}
+
+.Letter .containerimg2{
+    position: relative;
+    float: right;
+    box-sizing: border-box;
+    bottom: 260px;
+    margin-right: 150px;
+}
+
+
+
+.Man{
+    margin-top: 40px;
+}
+
+.Man img{
+    position: relative;
+    float: left;
+    margin-left: 20%;
+}
+
+.Man .container3 h3{
+    position: relative;
+    font-size: 15px;
+    justify-items: right;
+    padding-right: 20px;
+    margin-left: 50%;
+    text-align: left;
+}
+
+.Man .container3 h5{
+    position: relative;
+    font-size: 11px;
+    justify-items: right;
+    padding-right: 20px;
+    margin-left: 50%;
+    text-align: left;
+    font-weight: 300;
+}
+
+.container4{
+    margin-top: 16%;
+    background: #fff;
+
+}
+.container-text h3{
+    padding-top: 30px;
+}
+
+.row{
+  margin-top: 20px; 
+  margin-left: 40px;
+}
+
+.row .card{
+  width: 250px;  
+}
+
+.row .card h3{
+    font-size: 20px;
+    align-items: left;
+    justify-content: right;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.row .cardd{
+    margin-left: 50px;
+    border: 4px;
+    width: 250px;
+}
+.row .cardd h3{
+    font-size: 20px;
+    align-items: left;
+    justify-content: right;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.row .cardi{
+    margin-left: 100px;
+    border: 4px;
+    width: 250px;
+}
+
+.row .cardi h3{
+    font-size: 20px;
+    align-items: left;
+    justify-content: right;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.row .cardd img{
+    padding-right: 80px;
+}
+
+.btn{
+    margin-top: 30px;
+}
+.btn button{
+    padding: 7px;
+    border-radius: 10px;
+    background: #fff;
+    color: #2E6BC6;
+    border-color: #2E6BC6;
+    margin-bottom: 40px;
+}
+
+
+.FAQ .accordion-button{
+    color: #000;
+    background: #fff;
+}
+
+.FAQ {
+    margin-bottom: 70px;
+
+}
+
+.section5{
+    background: linear-gradient(90deg, #1767CA -3.44%, #5B3994 103.6%);
+    color: #fff;
+    height: 300px;
+}
+
+ .container5 h1{
+    position: relative;
+    float: left;
+    font-size: 30px;
+     text-align: left;
+     padding-top: 15px;
+     padding-left: 50px;
+     box-sizing: border-box;
+     justify-content: left;
+     width: 200px;
+     margin-top: 40px;
+}
+
+.section5 .form2{
+    position: relative;
+    float: right;
+    margin-top: 40px;
+    margin-right: 150px;
+}
+
+.form2 .fill input{
+    width: 70%;
+    height: 40px;
+    margin: 4px;
+    background-color: #DFDFDF;
+    border: 0;
+}
+
+.form2 .fill1 button{
+   width: 70%;
+   height: 40px;
+   margin: 4px;
+   border-radius: 20px;
+   font-weight: 400;
+   background-color: #F4C240;
+   border: #F4C240;
+}
+.form2 .fill2 button{
+   width: 70%;
+   height: 37px;
+   margin: 4px;
+   border-radius: 20px;
+   color: #fff;
+   font-weight: 600;
+   background-color: #2E6BC6;
+   border: #fff 1px solid;
+   margin: 9px;
+   font-weight: 200;
+   font-size: 15px;
+}
+
+.form2 .fil{
+   border: #fff 1px solid;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-top: 7px;
+}
+ .ll h6{
+   color: #fff;
+   font-size: 10px;
+   padding-bottom: 80px;
+   font-weight: 500;
+}
+
+ .ll span{
+    text-decoration: underline;
+}
